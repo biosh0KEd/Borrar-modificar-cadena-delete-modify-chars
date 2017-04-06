@@ -56,6 +56,8 @@ int main()
     return 0;
 }
 
+//Función para eliminar un caracter de la cadena
+//Function to eliminate a caracter from the string
 void casoA(char *c11)
 {
 	int j = 0;
@@ -74,7 +76,8 @@ void casoA(char *c11)
 	cout << "La cadena resultante es " << c11 << endl;
 }
 
-
+//Función para cambiar las vocales de la cadena por numeros
+//Function to change the vowels of the string to numbers
 void casoB(char *c21)
 {
 	char x[9] = { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
@@ -100,4 +103,3 @@ void casoB(char *c21)
 	}
 	cout << "La cadena resultante es " << c21 << endl;
 }
-
